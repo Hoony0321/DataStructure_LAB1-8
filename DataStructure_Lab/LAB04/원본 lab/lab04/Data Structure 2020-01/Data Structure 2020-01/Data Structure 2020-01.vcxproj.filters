@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{a9d90582-e586-4681-b502-805eba668f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type">
+      <UniqueIdentifier>{b9b9ecd2-a891-4155-bc77-2949ae48c17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{592ecde0-5b96-439c-88a7-0439b88255e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="UnsortedList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="SortedList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleItemType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TempType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleLinkedList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleItemType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TempType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+
+Get from file함수에 TEST.txt를 입력해서 기록들을 불러와서 실행해주세요.

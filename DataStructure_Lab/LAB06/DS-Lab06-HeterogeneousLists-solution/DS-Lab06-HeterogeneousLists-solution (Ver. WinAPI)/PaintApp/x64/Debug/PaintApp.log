@@ -1,0 +1,21 @@
+﻿  stdafx.cpp
+  AppBase.cpp
+  Application.cpp
+C:\Users\rheogns\Desktop\2020_1학기\자료구조\과제\LAB06\DS-Lab06-HeterogeneousLists-solution\DS-Lab06-HeterogeneousLists-solution (Ver. WinAPI)\PaintApp\Application.cpp(6,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rheogns\Desktop\2020_1학기\자료구조\과제\LAB06\DS-Lab06-HeterogeneousLists-solution\DS-Lab06-HeterogeneousLists-solution (Ver. WinAPI)\PaintApp\Application.cpp(112,58): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rheogns\Desktop\2020_1학기\자료구조\과제\LAB06\DS-Lab06-HeterogeneousLists-solution\DS-Lab06-HeterogeneousLists-solution (Ver. WinAPI)\PaintApp\Application.cpp(116,61): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BaseNode.cpp
+  CircleNode.cpp
+C:\Users\rheogns\Desktop\2020_1학기\자료구조\과제\LAB06\DS-Lab06-HeterogeneousLists-solution\DS-Lab06-HeterogeneousLists-solution (Ver. WinAPI)\PaintApp\Application.cpp(118,61): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rheogns\Desktop\2020_1학기\자료구조\과제\LAB06\DS-Lab06-HeterogeneousLists-solution\DS-Lab06-HeterogeneousLists-solution (Ver. WinAPI)\PaintApp\CircleNode.cpp(45,73): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  HeterogeneousList.cpp
+  HtgListIterator.cpp
+  KeyManager.cpp
+  MyUtil.cpp
+C:\Users\rheogns\Desktop\2020_1학기\자료구조\과제\LAB06\DS-Lab06-HeterogeneousLists-solution\DS-Lab06-HeterogeneousLists-solution (Ver. WinAPI)\PaintApp\CircleNode.cpp(45,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PaintApp.cpp
+  PolygonNode.cpp
+  RectangleNode.cpp
+  코드를 생성하고 있습니다...
+C:\Users\rheogns\Desktop\2020_1학기\자료구조\과제\LAB06\DS-Lab06-HeterogeneousLists-solution\DS-Lab06-HeterogeneousLists-solution (Ver. WinAPI)\PaintApp\MyUtil.cpp(46,42): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PaintApp.vcxproj -> C:\Users\rheogns\Desktop\2020_1학기\자료구조\과제\LAB06\DS-Lab06-HeterogeneousLists-solution\DS-Lab06-HeterogeneousLists-solution (Ver. WinAPI)\x64\Debug\PaintApp.exe

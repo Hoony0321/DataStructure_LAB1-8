@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1.App">
+      <UniqueIdentifier>{9f61fa47-6f57-489a-a6e9-da13cc7943bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.Type">
+      <UniqueIdentifier>{e496f18a-d567-4fef-8559-55199d6dee35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\3.List">
+      <UniqueIdentifier>{32bb77d1-6b94-4a59-a527-875082ca13ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>1.App</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>1.App</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemType.cpp">
+      <Filter>2.Type</Filter>
+    </ClCompile>
+    <ClCompile Include="SortedList.cpp">
+      <Filter>Resource Files\3.List</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>1.App</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemType.h">
+      <Filter>2.Type</Filter>
+    </ClInclude>
+    <ClInclude Include="SortedList.h">
+      <Filter>Resource Files\3.List</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

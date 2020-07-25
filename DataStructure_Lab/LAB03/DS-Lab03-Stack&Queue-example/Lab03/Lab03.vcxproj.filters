@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{0178ae80-8e5f-45ff-afd1-d5c66e064b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{96c135aa-c340-4e00-abf7-ea52b9750094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type">
+      <UniqueIdentifier>{a6ad81bd-2979-4336-a945-d84da3f93e99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="SortedList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayItemType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="UnsortedList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab03.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="SortedList.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayItemType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularQueue.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="UnsortedList.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

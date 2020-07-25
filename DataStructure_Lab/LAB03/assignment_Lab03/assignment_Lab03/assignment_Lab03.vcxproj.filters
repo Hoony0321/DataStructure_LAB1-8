@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{1eef3d20-9b90-41b0-9a6b-ea34dc7c70bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{6cb21259-2d99-4560-9f21-aa28af73a64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List\Stack">
+      <UniqueIdentifier>{9a259ce9-c62f-4208-9c8b-4df2b471a3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List\Queue">
+      <UniqueIdentifier>{2fe8c670-278f-46cf-8243-e7eaaae57f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List\SortedList">
+      <UniqueIdentifier>{bb5e06b1-7a5b-4846-a4d9-2340be6a2e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List\UnsortedList">
+      <UniqueIdentifier>{26f55ea5-bb57-4a1e-a739-7fce8791259f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type">
+      <UniqueIdentifier>{c0c67f4d-1af0-4d7b-88d4-745009584c2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="SortedList.cpp">
+      <Filter>List\SortedList</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>List\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>List\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="UnsortedList.cpp">
+      <Filter>List\UnsortedList</Filter>
+    </ClCompile>
+    <ClCompile Include="TempType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleItemType.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ItemType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="SortedList.h">
+      <Filter>List\SortedList</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>List\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>List\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="UnsortedList.h">
+      <Filter>List\UnsortedList</Filter>
+    </ClInclude>
+    <ClInclude Include="TempType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleItemType.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
